@@ -1,0 +1,18 @@
+[user]
+	name = nightreapper
+	email = darobiel@gmail.com
+[push]
+	default = current
+[alias]
+	co = checkout
+	set-upstream = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
+[color]
+	ui = auto
+[core]
+	excludesfile = /Users/dario/.gitignore
+	mergeoptions = --no-edit
+	editor = /usr/bin/vim
+[pull]
+	rebase = true
+[oh-my-zsh]
+	hide-dirty = 1
